@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		467F53C2233D238F0001D527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F53C1233D238F0001D527 /* AppDelegate.swift */; };
 		467F53C4233D238F0001D527 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F53C3233D238F0001D527 /* SceneDelegate.swift */; };
-		467F53C6233D238F0001D527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F53C5233D238F0001D527 /* ViewController.swift */; };
 		467F53C9233D238F0001D527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467F53C7233D238F0001D527 /* Main.storyboard */; };
 		467F53CB233D23910001D527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467F53CA233D23910001D527 /* Assets.xcassets */; };
 		467F53CE233D23910001D527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467F53CC233D23910001D527 /* LaunchScreen.storyboard */; };
+		467F53D6233D24FF0001D527 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F53D5233D24FF0001D527 /* TableViewController.swift */; };
+		467F53D8233D25DD0001D527 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F53D7233D25DD0001D527 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		467F53BE233D238F0001D527 /* Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F53C1233D238F0001D527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		467F53C3233D238F0001D527 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		467F53C5233D238F0001D527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		467F53C8233D238F0001D527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		467F53CA233D23910001D527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467F53CD233D23910001D527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		467F53CF233D23910001D527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467F53D5233D24FF0001D527 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		467F53D7233D25DD0001D527 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				467F53C1233D238F0001D527 /* AppDelegate.swift */,
 				467F53C3233D238F0001D527 /* SceneDelegate.swift */,
-				467F53C5233D238F0001D527 /* ViewController.swift */,
 				467F53C7233D238F0001D527 /* Main.storyboard */,
+				467F53D5233D24FF0001D527 /* TableViewController.swift */,
+				467F53D7233D25DD0001D527 /* Model.swift */,
 				467F53CA233D23910001D527 /* Assets.xcassets */,
 				467F53CC233D23910001D527 /* LaunchScreen.storyboard */,
 				467F53CF233D23910001D527 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467F53C6233D238F0001D527 /* ViewController.swift in Sources */,
 				467F53C2233D238F0001D527 /* AppDelegate.swift in Sources */,
+				467F53D6233D24FF0001D527 /* TableViewController.swift in Sources */,
 				467F53C4233D238F0001D527 /* SceneDelegate.swift in Sources */,
+				467F53D8233D25DD0001D527 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
